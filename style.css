@@ -9,6 +9,7 @@
 }
 .logo{
     padding: 10px 40px;
+    text-transform: uppercase;
 }  
 .menu ul{
     list-style: none;
