@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Com Flexbox</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!--Crie uma estrutura de página simples utilizando Flexbox. O layout deve conter: 
+    1. Um header com logo e menu alinhados lado a lado. ok
+    2. Um main dividido em duas colunas: uma seção de conteúdo principal e uma barra lateral. 
+    3. Uma seção de cards responsivos que se ajustam usando flex-wrap. 
+    4. Um footer centralizado. Use as propriedades flex-direction, justify-content, align-items, align-content, flex-wrap e gap para organizar cada parte da página.
+    Dica 1
+    Use display: flex em cada container principal (header, main, cards, footer).
+    Dica 2
+    No header, use justify-content: space-between para separar logo e menu.
+    Dica 3
+    No main, use flex para dividir em duas colunas (conteúdo e sidebar).
+    Dica 4
+    Na seção de cards, combine flex-wrap com gap e justify-content para deixá-los responsivos.
+    Dica 5
+    No footer, centralize o texto com justify-content e align-items.
+    -->
+    <header class="cabecalho">
+        <div class="logo">
+            <h1>Logo</h1>
+        </div>
+        <div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="principal">
+        <section>
+            <h2>Projetos</h2>
+
+            <div class="cards">
+                <div>
+                    <img src="https://imagizer.imageshack.com/v2/500x750q90/537/yqbva3.png" alt="projeto1">
+                    <h3>
+                        Projeto 1
+                    </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque placeat nemo cum vero sed aliquam.</p>
+                </div>
+                <div>
+                    <img src="https://imagizer.imageshack.com/v2/500x750q90/537/yqbva3.png" alt="projeto2">
+                    <h3>
+                        Projeto 2
+                    </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque placeat nemo cum vero sed aliquam.</p>
+                </div>
+                <div>
+                    <img src="https://imagizer.imageshack.com/v2/500x750q90/537/yqbva3.png" alt="projeto3">
+                    <h3>
+                        Projeto 3
+                    </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque placeat nemo cum vero sed aliquam.</p>
+                </div>
+                <div>
+                    <img src="https://imagizer.imageshack.com/v2/500x750q90/537/yqbva3.png" alt="projeto4">
+                    <h3>
+                        Projeto 4
+                    </h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime itaque placeat nemo cum vero sed aliquam.</p>
+                </div>
+            </div>
+
+        </section>
+        <aside class="sidebar">
+            <h3>Links úteis</h3>
+            <ul>
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Devquest</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer class="rodape">
+        <p>Copyright © 2026</p>
+    </footer>
+</body>
+
+</html>
